@@ -1,0 +1,5 @@
+@prefix ex: <http://example.com/> .
+
+ex:model
+    a ex:ModelClass;
+    ex:stringProperty "stringValue".
