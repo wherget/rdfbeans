@@ -2,4 +2,10 @@
 
 ex:model
     a ex:ModelClass;
-    ex:stringProperty "stringValue".
+    ex:stringProperty "stringValue";
+    ex:reference ex:secondModel;
+    ex:listProperty "foo", "bar", ex:someUri;
+    ex:custom ex:customTarget.
+
+ex:secondModel
+    a ex:ModelClass.
